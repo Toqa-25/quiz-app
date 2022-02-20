@@ -1,0 +1,122 @@
+/* component style */
+:root{
+    --main-color:#122620;
+    --main-background-color:#D6AD60;
+    --main-background-alt-color:#f3d191;
+    --white-color:#fff;
+    --text-color:#C1DEAE;
+}
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    background-color: var(--main-background-color);
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+.pad{
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+/* element style */
+section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.quiz-head {
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+}
+.choose-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.choose-list span {
+    color:var(--main-color);
+    font-size:30px;
+    font-weight: bold;
+}
+.choose-list-item-head {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.select{
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: var(--main-background-color);
+}
+ul{
+    list-style: none;
+}
+.button {
+    text-align: center;
+}
+#Start-button {
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.answers{
+    margin-top: 5px 10px;
+    padding: 10px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-end , .button-try{
+    display: none;
+}
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    color: #000;
+    appearance: auto;
+    border-radius: 50%;
+    accent-color: #000;
+}
+label{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* copyRight style */
+.bottom-group{
+color:var(--main-color);
+text-align: center;
+margin: 16px auto;
+}
+.bottom-group p{ 
+    text-transform:capitalize;
+}
+.bottom-group p a{ 
+    font-family: 'Pushster', cursive;
+     color:var(--main-color);
+}
+
+
